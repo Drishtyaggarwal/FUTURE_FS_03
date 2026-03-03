@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven Cafe - Feedback</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+  <h1>Brew Haven Café</h1>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+   <li> <a href="checkout.html">
+   Cart <span id="cart-count">0</span>
+</a></li>
+<li><a href="feedback.html">Feedback</a></li>
+  </ul>
+</nav>
+<div class="feedback-container">
+    <h2>We Value Your Feedback ☕</h2>
+
+    <form id="feedback-form">
+        <input type="text" id="fb-name" placeholder="Your Name" required>
+        <input type="email" id="fb-email" placeholder="Your Email" required>
+        <label for="fb-rating">Rate Us:</label>
+        <select id="fb-rating" required>
+            <option value="">Rate Us</option>
+            <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+            <option value="4">⭐⭐⭐⭐ Very Good</option>
+            <option value="3">⭐⭐⭐ Good</option>
+            <option value="2">⭐⭐ Average</option>
+            <option value="1">⭐ Poor</option>
+        </select>
+
+        <textarea id="fb-message" placeholder="Write your feedback..." required></textarea>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+
+    <p id="feedback-success"></p>
+</div>
+<footer>
+    © 2026 Brew Haven Café
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

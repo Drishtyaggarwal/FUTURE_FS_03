@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven Café - Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+    <h1>Brew Haven Café</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a><li>
+         <li> <a href="checkout.html">
+   Cart <span id="cart-count">0</span>
+</a></li>
+<li><a href="feedback.html">Feedback</a></li>
+    </ul>
+</nav>
+
+<section class="menu-section">
+    <h2>Our Coffee Menu ☕</h2>
+
+    <div class="menu-grid">
+
+        <div class="menu-card">
+            <img src="images/espresso.jpg" alt="Espresso">
+            <h3>Espresso</h3>
+            <p>Strong and bold classic espresso shot.</p>
+            <span>₹120</span>
+            <button onclick="addToCart('Espresso',120)">Add to Cart</button>
+            <button onclick="orderNow('Espresso',120)">Order Now</button>
+        </div>
+
+        <div class="menu-card">
+            <img src="images/cappuccino.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>Rich espresso with steamed milk foam.</p>
+            <span>₹180</span>
+            <button onclick="addToCart('Cappuccino',180)">Add to Cart</button>
+            <button onclick="orderNow('Cappuccino',180)">Order Now</button>
+ </div>
+
+        <div class="menu-card">
+            <img src="images/latte.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <p>Smooth blend of espresso & milk.</p>
+            <span>₹200</span>
+            <button onclick="addToCart('Latte',200)">Add to Cart</button>
+             <button onclick="orderNow('Latte',200)">Order Now</button>
+        </div>
+
+        <div class="menu-card">
+            <img src="images/coldcoffee.jpg" alt="Cold Coffee">
+            <h3>Cold Coffee</h3>
+            <p>Chilled creamy delight for summers.</p>
+            <span>₹220</span>
+            <button onclick="addToCart('Cold Coffee',220)">Add to Cart</button>
+             <button onclick="orderNow('Cold Coffee',220)">Order Now</button>
+        </div>
+
+        <div class="menu-card">
+            <img src="images/mocha.jpg" alt="Mocha">
+            <h3>Mocha</h3>
+            <p>Chocolate flavored espresso magic.</p>
+            <span>₹240</span>
+            <button onclick="addToCart('Mocha',240)">Add to Cart</button>
+             <button onclick="orderNow('Mocha',240)">Order Now</button>
+        </div>
+
+        <div class="menu-card">
+            <img src="images/greentea.jpg" alt="Green Tea">
+            <h3>Green Tea</h3>
+            <p>Light and refreshing herbal tea.</p>
+            <span>₹100</span>
+            <button onclick="addToCart('Green Tea',100)">Add to Cart</button>
+             <button onclick="orderNow('Green Tea',100)">Order Now</button>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+<section class="menu-section">
+    <h2>Our Savories Menu ☕</h2>
+
+    <div class="menu-grid">
+
+        <div class="menu-card">
+            <img src="images/sandwich.jpg" alt="AlooSandwich">
+            <h3>Aloo Masala Sandwich</h3>
+            <p>Crispy bread, spicy aloo, aur dher saara makkhan—sukoon ka dusra naam..</p>
+            <span>₹120</span>
+            <button onclick="addToCart('AlooSandwich',120)">Add to Cart</button>
+            <button onclick="orderNow('AlooSandwich',120)">Order Now</button>
+        </div>
+
+        <div class="menu-card">
+            <img src="images/whitesaucepasta.jpg" alt="WhiteSauce Pasta">
+            <h3>WhiteSauce Pasta</h3>
+            <p>The ultimate comfort in a bowl: Rich, buttery, and blissfully creamy.</p>
+            <p></p>
+            <span>₹180</span>
+            <button onclick="addToCart('WhiteSauce Pasta',180)">Add to Cart</button>
+            <button onclick="orderNow(' WhiteSauce',180)">Order Now</button>
+ </div>
+
+        <div class="menu-card">
+            <img src="images/garlicbread.jpg" alt="Garlic Bread">
+            <h3>Garlic Bread</h3>
+            <p>Toasted to a golden crunch and dripping with herb-infused garlic butter</p>
+            <span>₹200</span>
+            <button onclick="addToCart('Garlic Bread',200)">Add to Cart</button>
+             <button onclick="orderNow('Garlic Bread',200)">Order Now</button>
+        </div>
+
+        <div class="menu-card">
+            <img src="images/pizza.jpg" alt="Pizza">
+            <h3>Pizza</h3>
+            <p>The ultimate cheese pull that pairs perfectly with a bold Espresso.</p>
+            <span>₹220</span>
+            <button onclick="addToCart('Pizza',220)">Add to Cart</button>
+             <button onclick="orderNow('Pizza',220)">Order Now</button>
+        </div>
+
+        <div class="menu-card">
+            <img src="images/redsaucepasta.jpg" alt="Red Sauce Pasta">
+            <h3>Red Sauce Pasta</h3>
+            <p>Tossed in a tangy, herb-infused tomato glaze with a hint of chili kick.</p>
+            <span>₹240</span>
+            <button onclick="addToCart('Red Sauce Pasta',240)">Add to Cart</button>
+             <button onclick="orderNow('Red Sauce Pasta',240)">Order Now</button>
+        </div>
+
+        <div class="menu-card">
+            <img src="images/periperi.jpg" alt="The Peri-Peri Loaded Fries">
+            <h3>The Peri-Peri Loaded Fries</h3>
+            <p>The ultimate crunch. Hand-cut potatoes, fried to perfection and loaded with flavor.</p>
+            <span>₹100</span>
+            <button onclick="addToCart('The Peri-Peri Loaded Fries',100)">Add to Cart</button>
+             <button onclick="orderNow('The Peri-Peri Loaded Fries',100)">Order Now</button>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 Brew Haven Café
+</footer>
+
+
+<script src="js/script.js"></script>
+    
+</body>
+</html>
